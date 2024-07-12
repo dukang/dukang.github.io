@@ -1,9 +1,10 @@
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
-  title: 'Kang DU Website',
+  title: 'Kang DU CV Website',
   author: 'Kang DU (Ken)',
   headerTitle: 'Kang DU Website',
-  description: 'CV',
+  description: `Welcome to my little site. Im Dukang, a computer software engineer and entrepreneur. I graduated from Texas A&M University and have worked at internet companies like Tencent, TikTok and Meituan. My current main areas of work are computer graphics, computer vision, and web front-end development.
+Here, I mainly document my current research and showcase my work projects. On my Bilibili homepage, you can find the graphics courses Ive created. Feel free to check them out if you're interested!`,
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'http://kangdu.top',
