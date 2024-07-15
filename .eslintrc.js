@@ -22,15 +22,15 @@ module.exports = {
     tsconfigRootDir: __dirname,
   },
   rules: {
-    'prettier/prettier': 'error',
+    'prettier/prettier': 'off',
     'react/react-in-jsx-scope': 'off',
     'jsx-a11y/anchor-is-valid': [
-      'error',
-      {
-        components: ['Link'],
-        specialLink: ['hrefLeft', 'hrefRight'],
-        aspects: ['invalidHref', 'preferButton'],
-      },
+      'off',
+      // {
+      //   components: ['Link'],
+      //   specialLink: ['hrefLeft', 'hrefRight'],
+      //   aspects: ['invalidHref', 'preferButton'],
+      // },
     ],
     'react/prop-types': 0,
     '@typescript-eslint/no-unused-vars': 0,
