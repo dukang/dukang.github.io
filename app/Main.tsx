@@ -20,27 +20,27 @@ export default function Home({ posts }) {
             
             <div className="col-span-4 bg-white p-4">
                 <h1 className="text-2xl font-bold mt-4">Kang DU(杜康)</h1>
-                <p className="text-gray-600">Entrepreneur, Programmer, PHD Student </p>
-                <p className="text-gray-600 mt-4">HKUST-GZ, HKU, Texas A&M</p>
-                <p className="text-gray-600 mt-4">Email: kdu800@connect.hkust-gz.edu.cn</p>
-                <p className="text-gray-600 mt-4"><a href="#" className="text-gray-600">Crriculum Vitae [Oct 2024]</a></p>
+                <p className="text-gray-600">Entrepreneur</p>
+                <p className="text-gray-600 mt-4"><b>Edu.:</b> HKUST-GZ, HKU, Texas A&M</p>
+                <p className="text-gray-600"><b>Email:</b> kdu800@connect.hkust-gz.edu.cn</p>
+                <p className="text-gray-600 mt-4"><a href="static/doc/CV-WX-Kank-Du.pdf" className="text-gray-600">Crriculum Vitae [Oct 2024]</a></p>
                 <div className="flex space-x-2 mt-4">
                     <a href="#" className="text-gray-600">LinkedIn</a>
-                    <a href="#" className="text-gray-600">Blibli</a>
-                    <a href="#" className="text-gray-600">GitHub</a>
+                    <a href="https://space.bilibili.com/588878976" className="text-gray-600">Blibli</a>
+                    <a href="https://github.com/dukang" className="text-gray-600">GitHub</a>
                 </div>
             </div>
 
             <div className="col-span-5 bg-white p-4">
-                <h2 className="text-xl font-bold">Latest News</h2>
+                <h2 className="text-xl font-bold">Experiences</h2>
                 <ul className="list-disc list-inside mt-4">
-                  <li><strong>[Aug 2024]</strong> Start HKUST-GZ PHD study!</li>
-                  <li><strong>[Aug 2023]</strong> Start HKU MBA!</li>
+                  <li><strong>[Aug 2024]</strong> Begin PhD studies at HKUST-GZ!</li>
+                  <li><strong>[Aug 2023]</strong> Start MBA program at HKU!</li>
                   <li><strong>[Oct 2022]</strong> Project Manager at Tencent</li>
-                  <li><strong>[May 2021]</strong> Programmer specialist at MeiTuan</li>
+                  <li><strong>[May 2021]</strong> Programmer Specialist at MeiTuan</li>
                   <li><strong>[May 2020]</strong> Programmer at Bytedance</li>
-                  <li><strong>[May 2015]</strong> Start a startup Company</li>
-                  <li><strong>[May 2015]</strong> Graduate from TAMU</li>
+                  <li><strong>[May 2015]</strong> Founded a startup company</li>
+                  <li><strong>[May 2015]</strong> Graduated from Texas A&M</li>
                 </ul>
             </div>
           </div>

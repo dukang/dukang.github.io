@@ -3,8 +3,9 @@ const siteMetadata = {
   title: 'Kang DU CV Website',
   author: 'Kang DU (Ken)',
   headerTitle: 'Kang DU Website',
-  description: `Welcome to my little site. Im Dukang, a computer software engineer and entrepreneur. I graduated from Texas A&M University and have worked at internet companies like Tencent, TikTok and Meituan. My current main areas of work are computer graphics, computer vision, and web front-end development.
-Here, I mainly document my current research and showcase my work projects. On my Bilibili homepage, you can find the graphics courses Ive created. Feel free to check them out if you're interested!`,
+  description: `Welcome to my site! I’m Du Kang, an entrepreneur and software engineer. I graduated from Texas A&M University and have worked at leading internet companies like Tencent, TikTok, and Meituan. My primary areas of expertise are computer graphics, computer vision, and web front-end development.
+
+On this site, I document my current research and showcase my projects. You can also find the graphics courses I’ve created on my Bilibili homepage. Feel free to check them out if you’re interested!`,
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'http://kangdu.top',
