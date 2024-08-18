@@ -1,23 +1,18 @@
 ---
-title: 'Personal Profile'
-date: '3000-06-14'
+title: 'GS-ID: Illumination Decomposition on Gaussian Splatting via Diffusion Prior and  Parametric Light Source Optimization'
+date: '2024-08-18'
 tags: ['feature']
 draft: false
-summary: ''
+summary: 'We present GS-ID, a novel framework for illumination decomposition on Gaussian Splatting, achieving photorealistic novel view synthesis and intuitive light editing.'
 ---
 
-About
-I am a software engineer and entrepreneur who enjoys coding, watching movies, and hiking.
-In my spare time, I share simple content. Feel free to follow my Bilibili account and GitHub.
-My recent work focuses on computer graphics, computer vision, and web front-end development.
-My personal website is developed with Next.js and hosted on Alibaba Cloud.
-
-Work
-Meituan Technology Co., Ltd., Shenzhen
-ByteDance Technology Co., Ltd., Shenzhen
-Tamu Technology Co., Ltd., Shenzhen
-Mengzhua Technology Co., Ltd., Beijing
-720Explore Inc.
-
-Education
-Texas A&M University - B.S.
+We present GS-ID, a novel framework for illumination decomposition on Gaussian Splatting, achieving photorealistic novel view synthesis and intuitive light editing.
+Illumination decomposition is an ill-posed problem facing three main challenges: 
+1) priors for geometry and material are often lacking;
+2) complex illumination conditions involve multiple unknown light sources; and
+3) calculating surface shading with numerous light sources is computationally expensive.
+To address these challenges, we first introduce intrinsic diffusion priors to estimate the attributes for physically based rendering.
+Then we divide the illumination into environmental and direct components for joint optimization.
+Last, we employ deferred rendering to reduce the computational load.
+Our framework uses a learnable environment map and Spherical Gaussians (SGs) to represent light sources parametrically, therefore enabling controllable and photorealistic relighting on Gaussian Splatting.
+Extensive experiments and applications demonstrate that GS-ID produces state-of-the-art illumination decomposition results while achieving better geometry reconstruction and rendering performance. The source code is available at \url{https://github.com/dukang/GS-ID}.

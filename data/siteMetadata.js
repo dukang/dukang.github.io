@@ -1,6 +1,6 @@
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
-  title: 'Kang DU CV Website',
+  title: 'Kang DU (Ken)',
   author: 'Kang DU (Ken)',
   headerTitle: 'Kang DU Website',
   description: `Welcome to my site! I’m Du Kang, an entrepreneur and software engineer. I graduated from Texas A&M University and have worked at leading internet companies like Tencent, TikTok, and Meituan. My primary areas of expertise are computer graphics, computer vision, and web front-end development.
