@@ -60,7 +60,7 @@ export default function Home({ posts }) {
                       <dd className="text-base font-medium leading-6 text-gray-500 dark:text-gray-400">
                         <time dateTime={date}>{formatDate(date, siteMetadata.locale)}</time>
                       </dd>
-                      <img src="static/images/head_image.png" alt="" className="w-45 h-45 inline" />
+                      {/* <img src="static/images/head_image.png" alt="" className="w-45 h-45 inline" /> */}
                     </dl>
                     <div className="space-y-5 xl:col-span-3 m-4">
                       <div className="space-y-6">
